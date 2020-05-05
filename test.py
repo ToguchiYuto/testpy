@@ -39,12 +39,12 @@ print()
 if a:
     print('in')
 
-str = 'ABCDEFG'
-for i, ch in enumerate(str):
-    print('str[{}] = {}'.format(i, ch))
+line = 'ABCDEFG'
+for i, ch in enumerate(line):
+    print('line{}] = {}'.format(i, ch))
 
-for i, ch in enumerate(str, 10):
-    print('str[{}] = {}'.format(i, ch))
+for i, ch in enumerate(line, 10):
+    print('line[{}] = {}'.format(i, ch))
 
 print('{:+} {:-} {: }'.format(77, 77, 77))
 print('{:+} {:-} {: }'.format(-77, -77, -77))
