@@ -9,12 +9,11 @@ class ClassClass(object):
     classdocs
     '''
 
-    def __init__(self):
+    def __init__(self, params):
         '''
         Constructor
         '''
-        pass
-
+        print(params)
 
     def method(self):
         print('************************** method **************************')
@@ -33,4 +32,5 @@ class ClassClass(object):
         print(ClassClass.__class__)
         print()
 
-
+    def start(self):
+        pass

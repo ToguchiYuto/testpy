@@ -24,6 +24,11 @@ class ThreadClass(object):
             print('AttributeError')
             cache = self.__connections.cache ={}
 
-        key = (1, 2, 3,4)
-        client = cache[key]
-        print(client)
+        #key = (1, 2, 3, 4)
+        #cache = [[1, 2, 3, 4]]
+        #client = cache[key]
+        #print(client)
+
+
+
+
