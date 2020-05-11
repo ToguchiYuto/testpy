@@ -10,11 +10,11 @@ class FileClass(object):
     '''
 
 
-    def __init__(self):
+    def __init__(self, params):
         '''
         Constructor
         '''
-        pass
+        print(params)
 
     def write_file(self):
         print('************************** open_file **************************')
